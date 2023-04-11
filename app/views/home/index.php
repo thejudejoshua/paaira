@@ -20,8 +20,8 @@
 								</p>
 							</div>
 							<div class="cta">
-								<a href="#" class="button primary">Download our profile</a>
-								<a href="#" class="button secondary">Send us an email</a>
+								<a href="/public/assets/files/Paaira-company-profile.pdf" download="Paaira-company-profile.pdf" class="button primary"><span>Download our profile</span></a>
+								<a href="mailto:hello@paaira.com" class="button secondary"><span>Send us an email</span></a>
 							</div>
 						</div>
 					</div>

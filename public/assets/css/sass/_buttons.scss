@@ -3,17 +3,39 @@ button, .button{
     padding: 16px 24px;
     @include b1;
 
+    &::before{
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 100%;
+        transition: 0.6s;
+        top: 0;
+        left: 0;
+    }
+
+    .span{
+        z-index: 1;
+    }
+
     &.primary{
         background-color: $active-secondary;
         color: $active-primary;
+
+        &::before{
+            background-color: $active-accent;
+        }
 
         &:focus{
             background-color: $active-placeholder;
             color: $active-secondary;
         }
         &:hover{
-            background-color: $active-accent;
+            // background-color: $active-accent;
             color: $active-secondary;
+
+            &::before{
+                width: 100%;
+            }
         }
         &.disabled{
             background-color: $disabled-secondary;
@@ -26,15 +48,23 @@ button, .button{
         border: 1.5px solid;
         padding: 14.5px 24px;
 
+        &::before{
+            background-color: $active-secondary;
+        }
+
         &:focus{
             background-color: $active-placeholder;
             border-color: $active-placeholder;
             color: $active-primary;
         }
         &:hover{
-            background-color: $active-secondary;
+            // background-color: $active-secondary;
             border-color: $active-secondary;
             color: $active-primary;
+
+            &::before{
+                width: 100%;
+            }
         }
         &.disabled{
             background-color: unset;
@@ -45,14 +75,22 @@ button, .button{
     &.tertiary{
         background-color: $active-accent;
         color: $active-secondary;
+        
+        &::before{
+            background-color: $active-accent;
+        }
 
         &:focus{
             background-color: $active-placeholder;
             color: $active-secondary;
         }
         &:hover{
-            background-color: $active-accent;
+            // background-color: $active-accent;
             color: $active-primary;
+
+            &::before{
+                width: 100%;
+            }
         }
         &.disabled{
             background-color: $active-accent;

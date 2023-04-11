@@ -33,9 +33,15 @@ footer {
 
         .social-icons{
             @include flex (row, flex-start, center, nowrap, 16px);
-
-            i{
+            
+            .ph{
                 font-size: 24px;
+                color: $active-primary;
+                transition: 0.7s;
+    
+                &:hover{
+                    color: $active-placeholder;
+                }
             }
         }
     }
