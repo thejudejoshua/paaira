@@ -1,0 +1,24 @@
+@mixin flex ($direction, $justify, $align, $wrap, $gap){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+    flex-wrap: $wrap;
+    gap: $gap;
+}
+
+.downer{
+    flex-grow: 1;
+    background-color: $active-secondary;
+    height: 272px;
+    
+    &.vertical{
+        width: 1px;
+        transform: rotate(0deg);
+    }
+    
+    &.horizontal{
+        width: 1px;
+        transform: rotate(-270deg);
+    }
+}

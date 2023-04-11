@@ -1,0 +1,84 @@
+button, .button{
+    @include flex (row, center, center, nowrap, 0);
+    padding: 16px 24px;
+    @include b1;
+
+    &.primary{
+        background-color: $active-secondary;
+        color: $active-primary;
+
+        &:focus{
+            background-color: $active-placeholder;
+            color: $active-secondary;
+        }
+        &:hover{
+            background-color: $active-accent;
+            color: $active-secondary;
+        }
+        &.disabled{
+            background-color: $disabled-secondary;
+            color: $active-placeholder;
+        }
+    }
+    &.secondary{
+        background-color: unset;
+        color: $active-secondary;
+        border: 1.5px solid;
+        padding: 14.5px 24px;
+
+        &:focus{
+            background-color: $active-placeholder;
+            border-color: $active-placeholder;
+            color: $active-primary;
+        }
+        &:hover{
+            background-color: $active-secondary;
+            border-color: $active-secondary;
+            color: $active-primary;
+        }
+        &.disabled{
+            background-color: unset;
+            color: $disabled-primary;
+            border-color: $active-secondary;
+        }
+    }
+    &.tertiary{
+        background-color: $active-accent;
+        color: $active-secondary;
+
+        &:focus{
+            background-color: $active-placeholder;
+            color: $active-secondary;
+        }
+        &:hover{
+            background-color: $active-accent;
+            color: $active-primary;
+        }
+        &.disabled{
+            background-color: $active-accent;
+            color: $disabled-secondary;
+        }
+    }
+}
+
+.cta {
+    align-self: stretch;
+    padding: 0;
+    @include flex (row, flex-start, flex-start, nowrap, 16px);
+
+    @include devices(desktop) {
+        @include flex (column, flex-start, stretch, nowrap, 16px);
+    }
+
+    @include devices(tablet) {
+        @include flex (column, flex-start, stretch, nowrap, 16px);
+    }
+
+    @include devices(phone) {
+        @include flex (column, flex-start, stretch, nowrap, 16px);
+    }
+
+    .button{
+        flex-grow: 1;
+    }
+}

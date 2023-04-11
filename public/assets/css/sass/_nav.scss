@@ -1,0 +1,30 @@
+nav {
+    @include flex (row, center, center, nowrap, null);
+    width: 100%;
+    padding: 96px;
+    background-color: $active-primary;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+
+    @include devices(tablet) {
+        padding: 72px 56px;
+    }
+    
+    @include devices(phone) {
+        padding: 48px 32px;
+    }
+
+    img{
+        height: 48px;
+
+        @include devices(tablet) {
+            height: 40px;
+        }
+
+        @include devices(phone) {
+            height: 32px;
+        }
+    }
+}

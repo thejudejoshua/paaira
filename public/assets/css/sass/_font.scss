@@ -1,0 +1,238 @@
+@font-face {
+    font-family: 'Manrope';
+    src: url('../fonts/Manrope/Manrope-Regular.eot');
+    src: local('Manrope Regular'), local('Manrope-Regular'),
+        url('../fonts/Manrope/Manrope-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Manrope/Manrope-Regular.woff2') format('woff2'),
+        url('../fonts/Manrope/Manrope-Regular.woff') format('woff'),
+        url('../fonts/Manrope/Manrope-Regular.svg#Manrope-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Urbanist';
+    src: url('../fonts/Urbanist/Urbanist-Medium.eot');
+    src: local('Urbanist Medium'), local('Urbanist-Medium'),
+        url('../fonts/Urbanist/Urbanist-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Urbanist/Urbanist-Medium.woff2') format('woff2'),
+        url('../fonts/Urbanist/Urbanist-Medium.woff') format('woff'),
+        url('../fonts/Urbanist/Urbanist-Medium.svg#Urbanist-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Urbanist';
+    src: url('../fonts/Urbanist/Urbanist-Light.eot');
+    src: local('Urbanist Light'), local('Urbanist-Light'),
+        url('../fonts/Urbanist/Urbanist-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Urbanist/Urbanist-Light.woff2') format('woff2'),
+        url('../fonts/Urbanist/Urbanist-Light.woff') format('woff'),
+        url('../fonts/Urbanist/Urbanist-Light.svg#Urbanist-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Urbanist';
+    src: url('../fonts/Urbanist/Urbanist-Bold.eot');
+    src: local('Urbanist Bold'), local('Urbanist-Bold'),
+        url('../fonts/Urbanist/Urbanist-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Urbanist/Urbanist-Bold.woff2') format('woff2'),
+        url('../fonts/Urbanist/Urbanist-Bold.woff') format('woff'),
+        url('../fonts/Urbanist/Urbanist-Bold.svg#Urbanist-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Urbanist';
+    src: url('../fonts/Urbanist/Urbanist-Regular.eot');
+    src: local('Urbanist Regular'), local('Urbanist-Regular'),
+        url('../fonts/Urbanist/Urbanist-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Urbanist/Urbanist-Regular.woff2') format('woff2'),
+        url('../fonts/Urbanist/Urbanist-Regular.woff') format('woff'),
+        url('../fonts/Urbanist/Urbanist-Regular.svg#Urbanist-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+/*
+    H E A D I N G S
+*/
+
+@mixin h1 {
+    font-family: 'Urbanist';
+    font-size: 104px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+@mixin h2 {
+    font-family: 'Urbanist';
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+@mixin h3 {
+    font-family: 'Urbanist';
+    font-size: 54px;
+    font-weight: bold;
+    line-height: 1.4;
+}
+
+@mixin h4 {
+    font-family: 'Urbanist';
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+@mixin h5 {
+    font-family: 'Urbanist';
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.4;
+}
+
+@mixin h6 {
+    font-family: 'Urbanist';
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.4;
+}
+
+@mixin mobile-h1 {
+    font-family: 'Urbanist';
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1.3;
+}
+
+
+
+/*
+    P A R A G R A P H S
+*/
+
+@mixin p1 {
+    font-family: 'Manrope';
+    font-size: 24px;
+    line-height: 1.8;
+    font-weight: normal;
+}
+
+@mixin p2 {
+    font-family: 'Manrope';
+    font-size: 18px;
+    line-height: 1.8;
+    font-weight: normal;
+}
+
+
+@mixin p3 {
+    font-family: 'Manrope';
+    font-size: 14px;
+    line-height: 1.8;
+    font-weight: normal;
+}
+
+
+
+/*
+    S U B - H E A D I N G S
+*/
+
+@mixin s1 {
+    font-family: 'Urbanist';
+    font-size: 104px;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+@mixin s2 {
+    font-family: 'Urbanist';
+    font-size: 80px;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+@mixin s3 {
+    font-family: 'Urbanist';
+    font-size: 54px;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+@mixin s4 {
+    font-family: 'Urbanist';
+    font-size: 36px;
+    line-height: 1.2;
+}
+
+@mixin s5 {
+    font-family: 'Urbanist';
+    font-size: 24px;
+    line-height: 1.4;
+}
+
+@mixin s6 {
+    font-family: 'Urbanist';
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+
+
+/*
+    B U T T O N S
+*/
+
+@mixin b1 {
+    font-family: 'Urbanist';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.8;
+}
+
+@mixin b2 {
+    font-family: 'Urbanist';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.8;
+}
+
+@mixin b3 {
+    font-family: 'Urbanist';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.8;
+}
+
+
+
+/*
+    C A P T I O N S
+*/
+
+@mixin c1 {
+    font-family: 'Manrope';
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+@mixin c2 {
+    font-family: 'Manrope';
+    font-size: 12px;
+    line-height: 1.8;
+}

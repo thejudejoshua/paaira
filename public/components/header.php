@@ -22,29 +22,40 @@
     <meta name="dcterms.dateCopyrighted" content="2022">
     
     <meta content="" property="og:title">
-    <meta content="" property="og:site_name">
+    <meta content="Paaira" property="og:site_name">
     <meta content="" property="og:type">
     <meta content="" property="og:description">
     <meta content="" property="og:image">
     <meta content="/" property="og:url">
 
-    <meta name="theme-color" content="">
+    <meta name="theme-color" content="#07080a">
     <!--Windows Phone **-->
-    <meta name="msapplication-navbutton-color" content="">
+    <meta name="msapplication-navbutton-color" content="#07080a">
     <!--iOS Safari-->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     
     <link rel="canonical" href="">
     <link rel="amphtml" href="">
-    <link rel="apple-touch-icon" sizes="180x180" href="">
-    <link rel="icon" type="image/png" sizes="32x32" href="">
-    <link rel="icon" type="image/png" sizes="16x16" href="">
-    <link rel="manifest" href="">
-    <link rel="icon" type="image/x-icon" href="">
-    <link rel="shortcut icon" type="image/x-icon" href="">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
     
-    <title></title>
+    <title>Paaira. Easily exchange ypour PayPal funds into Naira.</title>
     
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="/public/assets/css/icons.css">
+    <link rel="stylesheet" href="/public/assets/css/style.css">
 </head>
+
+
+<body>
+	
+	<header>
+        <?php
+            include 'nav.php';
+        ?>
+		
+	

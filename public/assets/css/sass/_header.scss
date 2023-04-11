@@ -1,0 +1,6 @@
+header {
+    width: 100%;
+    height: auto;
+    padding: 0 0 48px;
+    @include flex (column, flex-start, normal, nowrap, 0px);
+}

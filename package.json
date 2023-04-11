@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "watch:scss": "node-sass -w public/assets/css/sass/style.scss public/assets/css/style.css"
+  },
+
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
+}

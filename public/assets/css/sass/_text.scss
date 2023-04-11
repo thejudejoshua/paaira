@@ -1,0 +1,275 @@
+$font-size: 20px;
+
+
+/*
+    H E A D I N G S
+*/
+
+.h1{
+    @include h1;
+
+    @include devices(desktop) {
+        @include h2;
+    }
+    
+    @include devices(tablet) {
+        @include h2;
+    }
+
+    @include devices(phone) {
+        @include h3;
+    }
+}
+
+.h2{
+    @include h2;
+
+    @include devices(desktop) {
+        @include h3;
+    }
+        
+    @include devices(tablet) {
+        @include h3;
+    }
+
+    @include devices(phone) {
+        @include h4;
+    }
+}
+
+.h3{
+    @include h3;
+
+    @include devices(desktop) {
+        @include h4;
+    }
+        
+    @include devices(tablet) {
+        @include h4;
+    }
+
+    @include devices(phone) {
+        @include h5;
+    }
+}
+
+.h4{
+    @include h4;
+
+    @include devices(desktop) {
+        @include h5;
+    }
+        
+    @include devices(tablet) {
+        @include h5;
+    }
+
+    @include devices(phone) {
+        @include h6;
+    }
+}
+
+.h5{
+    @include h5;
+
+    @include devices(desktop) {
+        @include h6;
+    }
+        
+    @include devices(tablet) {
+        @include h6;
+    }
+
+    @include devices(phone) {
+        @include h6;
+    }
+}
+
+.h6{
+    @include h6;
+}
+
+
+
+/*
+    S U B - H E A D I N G S
+*/
+
+.s1{
+    @include s1;
+
+    @include devices(desktop) {
+        @include s2;
+    }
+
+    @include devices(tablet) {
+        @include s2;
+    }
+
+    @include devices(phone) {
+        @include s3;
+    }
+}
+
+.s2{
+    @include s2;
+
+    @include devices(desktop) {
+        @include s3;
+    }
+
+    @include devices(tablet) {
+        @include s3;
+    }
+
+    @include devices(phone) {
+        @include s4;
+    }
+}
+
+.s3{
+    @include s3;
+
+    @include devices(desktop) {
+        @include s4;
+    }
+
+    @include devices(tablet) {
+        @include s4;
+    }
+
+    @include devices(phone) {
+        @include s5;
+    }
+}
+
+.s4{
+    @include s4;
+    
+    @include devices(desktop) {
+        @include s5;
+    }
+
+    @include devices(tablet) {
+        @include s5;
+    }
+
+    @include devices(phone) {
+        @include s6;
+    }
+}
+
+.s5{
+    @include s5;
+    
+    @include devices(desktop) {
+        @include s6;
+    }
+        
+    @include devices(tablet) {
+        @include s6;
+    }
+
+    @include devices(phone) {
+        @include s6;
+    }
+}
+
+.s6{
+    @include s6;
+}
+
+
+
+/*
+    P A R A G R A P H S
+*/
+
+.p1{
+    @include p1;
+
+    @include devices(desktop) {
+        @include p2;
+    }
+
+    @include devices(tablet) {
+        @include p2;
+    }
+
+    @include devices(phone) {
+        @include p3;
+    }
+}
+
+.p2{
+    @include p2;
+
+    @include devices(phone) {
+        @include p3;
+    }
+}
+
+
+.p3{
+    @include p3;
+}
+
+
+
+/*
+    B U T T O N S
+*/
+
+.b1{
+    @include b1;
+    
+    @include devices(desktop) {
+        @include b2;
+    }
+
+    @include devices(tablet) {
+        @include b2;
+    }
+
+    @include devices(phone) {
+        @include b3;
+    }
+}
+
+.b2{
+    @include b2;
+
+    @include devices(phone) {
+        @include b3;
+    }
+}
+
+.b3{
+    @include b3;
+}
+
+
+
+/*
+    C A P T I O N S
+*/
+
+.c1{
+    @include c1;
+    
+    @include devices(desktop) {
+        @include c2;
+    }
+
+    @include devices(tablet) {
+        @include c2;
+    }
+
+    @include devices(phone) {
+        @include c2;
+    }
+}
+
+.c2{
+    @include c2;
+}

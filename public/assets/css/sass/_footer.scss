@@ -1,0 +1,42 @@
+footer {
+    @include flex (column, flex-start, normal, nowrap, 96px);
+    padding: 88px 0;
+    color: $active-primary;
+    background-color: $active-secondary;
+
+    @include devices(tablet) {
+        @include flex (column, flex-start, normal, nowrap, 48px);
+        padding: 64px 0;
+    }
+
+    @include devices(phone) {
+        @include flex (column, flex-start, normal, nowrap, 48px);
+        padding: 56px 0;
+    }
+
+    .copyright {
+        @include flex (row, space-between, center, nowrap, auto);
+        padding: 0 120px;
+
+        @include devices(desktop) {
+            padding: 0 72px;
+        }
+
+        @include devices(tablet) {
+            padding: 0 56px;
+        }
+    
+        @include devices(phone) {
+            @include flex (column-reverse, flex-start, normal, nowrap, 24px);
+            padding: 0 32px;
+        }
+
+        .social-icons{
+            @include flex (row, flex-start, center, nowrap, 16px);
+
+            i{
+                font-size: 24px;
+            }
+        }
+    }
+}
