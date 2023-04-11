@@ -12,7 +12,7 @@
 						<div class="more-details-info">
 							<div class="text">
 								<p class="s2">
-									You’ll soon be able to see Paaira.
+									You’ll soon be able to use Paaira.
 								</p>
 								<div class="downer vertical"></div>
 								<p class="p1">
