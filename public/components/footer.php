@@ -5,8 +5,8 @@
                     </span>
                     <div class="social-icons">
                         <a href="https://www.linkedin.com/company/paaira/" class="ph ph-thin ph-linkedin-logo"></a>
-                        <a class="ph ph-thin ph-instagram-logo"></a>
-                        <a class="ph ph-thin ph-twitter-logo"></a>
+                        <a href="https://www.instagram.com/thepaairapay/" class="ph ph-thin ph-instagram-logo"></a>
+                        <a href="https://www.linkedin.com/company/paaira/" class="ph ph-thin ph-twitter-logo"></a>
                     </div>
                 </div>
             </footer>
